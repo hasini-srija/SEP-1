@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+{
+  int x;
+  printf("enter number");
+  scanf("%d",&x);
+  int ans=chechevenodd(x);
+  if(ans==0)
+  printf("even");
+  else
+  Printf("odd");
+}
+void checkevenoddd(int x)
+{
+  if(x%2==o)
+  return 0;
+  else 
+  return 1;
+}
